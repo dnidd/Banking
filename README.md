@@ -61,4 +61,23 @@ Polymorphism used for account type and for determining account type.
 UI implements for example fileChooser.
 
 <br>
-Pictures demonstrating the JavaFX application user interface may be published to: https://dnidd.github.io/
+
+
+UI/GUI screenshots:<br>
+![Create customer, account](images/newCustomerAccount.png)
+
+![Customer info](images/customerInfo.png)
+
+![Bank customers](images/bankCustomers.png)
+
+![Transaction](images/transaction.png)
+
+![Save, open](images/saveOpen.png)
+
+![Save, open](images/saveOpen2.png)
+
+![Statement, receipt](images/statementReceipt.png)
+
+
+
+
