@@ -65,7 +65,8 @@ UI implements for example fileChooser.
 
 UI/GUI screenshots:<br>
 
-![Create customer, account](src/images/newCustomerAccount.png)
+![Create customer, account]
+<img src="src/images/newCustomerAccount.png" width="200">
 
 ![Customer info](src/images/customerInfo.png)
 
