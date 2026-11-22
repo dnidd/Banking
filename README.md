@@ -47,7 +47,7 @@ serialVersionUID.<br>
 Transient fields.<br>
 Pseudo constructor method calling to recreate the transient fields from serialized read file.<br>
 Polymorphism and inheritance.<br>
-Filehandling.<br>
+File handling.<br>
 MVC.<br>
 Error handling.<br>
 UX and GUI.<br>
