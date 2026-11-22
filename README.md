@@ -1,5 +1,5 @@
 
-#### Banking application
+##### Banking application
 Created in Eclipse using javafx-sdk-21.0.9
 <br>
 --------------------------------
@@ -38,10 +38,10 @@ https://www.youtube.com/watch?v=-W_GyGZV_ro
 --------------------------------
 
 <br>
-Login is only a mock-up.
+Login (view, (controller)) is only a mock-up.
 <br>
 
-##### Central parts
+##### Central parts:
 Serialize and deserialize.<br>
 serialVersionUID.<br>
 Transient fields.<br>
