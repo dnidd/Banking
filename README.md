@@ -65,20 +65,19 @@ UI implements for example fileChooser.
 
 UI/GUI screenshots:<br>
 
-![Create customer, account]
-<img src="src/images/newCustomerAccount.png" width="200">
+<img src="src/images/newCustomerAccount.png" width="400">
 
-![Customer info](src/images/customerInfo.png)
+<img src="src/images/customerInfo.png" width="400">
 
-![Bank customers](src/images/bankCustomers.png)
+<img src="src/images/bankCustomers.png" width="400">
 
-![Transaction](src/images/transaction.png)
+<img src="src/images/transaction.png" width="400">
 
-![Save, open](src/images/saveOpen.png)
+<img src="src/images/saveOpen.png" width="400">
 
-![Save, open](src/images/saveOpen2.png)
+<img src="src/images/saveOpen2.png" width="400">
 
-![Statement, receipt](src/images/statementReceipt.png)
+<img src="src/images/statementReceipt.png" width="400">
 
 
 
