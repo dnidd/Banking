@@ -1,0 +1,175 @@
+/**
+ * css styling application
+ */
+
+
+/*
+* Red error indication is ok, family: ABC
+*/
+
+@font-face {
+	font-family: ABC Favorit Unlicensed Trial Medium;
+	src: url("ABCFavorit-Medium-Trial.otf");
+}
+
+@font-face {
+	font-family: ABC Favorit Mono Unlicensed Trial Medium;
+	src: url("ABCFavoritMono-Medium-Trial.otf");
+}
+
+
+.root{
+	-fx-font-family: "ABC Favorit Unlicensed Trial Medium";
+	-fx-background-color: #E8E8E8;
+	-fx-font-size: 10pt;
+}
+
+.label {
+	-fx-font-family: "ABC Favorit Unlicensed Trial Medium";
+    -fx-text-fill: #000000;
+}
+
+
+/*
+* ----------------------------------------
+*                Menu
+* ----------------------------------------
+*/
+
+.menu-item > .label {
+	-fx-text-fill: #000000;
+	-fx-font-size: 11pt;
+}
+/*
+text color on Menu (fileMenu, infoMenu, editMenu)
+*/
+.menu > .label{
+	-fx-text-fill: #000000;
+	-fx-font-size: 11pt;
+}
+
+/*
+padding for single Menu items (fileMenu, infoMenu, editMenu)
+Move to the right.
+*/
+.menu {
+	-fx-background-color: #E8E8E8;
+	-fx-padding: 0 35 0 0; /* text padding  */
+}
+
+/*
+padding for entire menu bar.
+padding (20) to the left move to the right.
+padding (5) top + bottom.
+*/
+.menu-bar {
+	-fx-background-color: #E8E8E8;
+	-fx-padding: 5 0 5 20;
+}
+
+.menu-item:hover{
+	/*-fx-background-color: transparent;*/
+	-fx-background-color: #E8E8E8;
+}
+
+/*
+* menu bar color.
+*/ 
+#menu-wrapper {
+	-fx-background-color: #E8E8E8;
+	-fx-padding: 0 0 0 -7;
+}
+
+/*
+* ----------------------------------------
+*               Textfield
+* ----------------------------------------
+*/
+
+.text-field {
+	-fx-font-family: "ABC Favorit Mono Unlicensed Trial Medium";
+	-fx-background-color: #FFF;
+	-fx-background-radius: 15;
+}
+
+/*
+* ----------------------------------------
+*         TextArea in Dialog
+* ----------------------------------------
+*/
+
+.text-area {
+    -fx-font-family: "ABC Favorit Mono Unlicensed Trial Medium";
+}
+
+/*
+* ----------------------------------------
+*                Button
+* ----------------------------------------
+*/
+
+.button {
+	-fx-background-color: #FFF;
+	-fx-background-radius: 15;
+	-fx-padding: 6 12 6 12;
+}
+
+/*
+* ----------------------------------------
+*           Scene header
+* ----------------------------------------
+*/
+
+#sceneName-label {
+	-fx-text-fill: #000000;
+	-fx-font-size: 18pt;
+	-fx-font-family: "ABC Favorit Unlicensed Trial Medium";
+	-fx-padding: 10 0 10 0;
+}
+
+#sceneName-header {
+	-fx-background-color: #09BA2A;
+}
+
+/*
+* ----------------------------------------
+*              ListView
+* ----------------------------------------
+*/
+
+/*
+ * ListView text.
+ * Underline indication is ok.
+ */ 
+.list-view {
+	-fx-font-family: "ABC Favorit Mono Unlicensed Trial Medium";
+	-fx-background-radius: 15;
+	-fx-padding: 7 7 7 7;
+}
+
+/*
+* Remove border when clicked.
+*/
+.list-view:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/*
+* Remove "focus" from clicked ListView cell. 
+*/
+.list-cell:filled:selected, .list-cell:filled:selected:focused {
+    -fx-background-color: #E8E8E8;
+    -fx-text-fill: inherit;
+}
+
+/*
+* Remove border from clicked ListView cell
+*/
+.list-cell {
+    -fx-background-color: #FFF;
+}
+
+
+
+
